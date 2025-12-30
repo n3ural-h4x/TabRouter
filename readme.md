@@ -2,12 +2,12 @@
 
 ![Status](https://img.shields.io/badge/Status-Research%20In%20Progress-yellow)
 
-> **⚠️ Project Status:** This repository contains the experimental code and preliminary results for an **ongoing research project**. The architecture and findings are currently being prepared for submission to an IEEE Transaction journal.
+> **⚠️ Project Status:** This repository contains the experimental preliminary results for an **ongoing research project**. The architecture and findings are currently being prepared for submission to an IEEE Transaction journal.
 
 ## About
 **TabRouter** is a routing-based Mixture-of-Experts (MoE) Transformer designed for high-dimensional tabular data. It combines **sparse expert routing** with **SwiGLU Transformer blocks** to achieve a dual objective:
 
-1.  **State-of-the-Art Performance:** It outperforms classical baselines (such as XGBoost/CatBoost) and standard neural models (FT-Transformer) on complex classification tasks.
+1.  **State-of-the-Art Performance:** It matches the classical baselines which are state-of-the-art (such as XGBoost/CatBoost) while outperforming neural models (FT-Transformer) on complex classification tasks. 
 2.  **Transparency:** Unlike "black box" ensembles, TabRouter provides interpretable routing signals, allowing us to trace exactly how the model makes decisions.
 
 ## Preliminary Results
